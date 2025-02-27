@@ -34,6 +34,8 @@
 10. **infra**: Инфраструктура (PostgreSQL, Redis, Minio и др.)  
     - Репозиторий: [https://github.com/mad1xx1dam/infra](https://github.com/mad1xx1dam/infra)
 
+Тесты лежат в src/test/, миграции — в src/main/resources/db/changelog/changeset/
+
 ## Требования
 
 Для запуска сервисов без IDE нужен минимальный набор инструментов:
