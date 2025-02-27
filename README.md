@@ -4,31 +4,31 @@
 
 ## Сервисы и репозитории
 
-1. **user_service**: Управление пользователями (персональные данные, менторство и другой функционал)
+1. **user_service**: Управление пользователями (профили, данные, менторство)
    - Репозиторий: [https://github.com/mad1xx1dam/user_service](https://github.com/mad1xx1dam/user_service)  
    - Порт: `8080`
 2. **project_service**: Управление проектами (стажировки, стадии проектов, подпроекты)
    - Репозиторий: [https://github.com/mad1xx1dam/project_service](https://github.com/mad1xx1dam/project_service)  
    - Порт: `8082`
-3. **post_service**: Управление постами
+3. **post_service**: Управление постами (создание, редактирование, публикация)
    - Репозиторий: [https://github.com/mad1xx1dam/post_service](https://github.com/mad1xx1dam/post_service)  
    - Порт: `8081`
-4. **analytics_service**: Аналитика активности (отслеживание количества действий пользователей)
+4. **analytics_service**: Аналитика активности (активность, статистика)
    - Репозиторий: [https://github.com/mad1xx1dam/analytics_service](https://github.com/mad1xx1dam/analytics_service)  
    - Порт: `8086`
-5. **achievement_service**: Управление достижениями (за различные действия в системе)
+5. **achievement_service**: Управление достижениями (награды, прогресс)
    - Репозиторий: [https://github.com/mad1xx1dam/achievement_service](https://github.com/mad1xx1dam/achievement_service)  
    - Порт: `8085`
 6. **payment_service**: Платежи  
    - Репозиторий: [https://github.com/mad1xx1dam/payment_service](https://github.com/mad1xx1dam/payment_service)  
    - Порт: `9080`
-7. **notification_service**: Уведомления (telegram, sms voyage, email)
+7. **notification_service**: Уведомления (Telegram, SMS, email)
    - Репозиторий: [https://github.com/mad1xx1dam/notification_service](https://github.com/mad1xx1dam/notification_service)  
    - Порт: `8083`
-8. **account_service**: Управление счетами (накопительные и т.п.)  
+8. **account_service**: Управление счетами (баланс, накопления)  
    - Репозиторий: [https://github.com/mad1xx1dam/account_service](https://github.com/mad1xx1dam/account_service)  
    - Порт: `8090`
-9. **url_shortener_service**: Сокращение URL (длинная ссылка --> короткая ссылка)
+9. **url_shortener_service**: Сокращение URL (генерация коротких ссылок)
    - Репозиторий: [https://github.com/mad1xx1dam/url_shortener_service](https://github.com/mad1xx1dam/url_shortener_service)  
    - Порт: `8084`
 10. **infra**: Инфраструктура (PostgreSQL, Redis, Minio и др.)  
